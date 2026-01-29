@@ -32,28 +32,11 @@ linked list manipulation will be discussed in class.
 
 ## Hints
 
-The **main.cpp** provided in this repository tests the above member functions and checks to see if the returned value or the list is changed as
-expected by the function. For example, the following code snippet first create a list **K** passing an existing list **L** as parameter, which leads to the copy constructor being called.
-It subsequently checks if the two lists have same size or not, and whether the list **K**'s first element and last element have values as expected.
-```
- //test copy constructor
-  ds::SLList<int> *K = new ds::SLList<int>(L);
-
-  if (L.size() != K->size() ||
-     K->get(0) != nums[0] ||
-     K->get(SIZE - 1) != nums[SIZE - 1])
-  {
-      cout <<"failed copy constructor test\n";
-  }
-  else
-          cout <<"passed copy constructor test\n";
-```
-
 You can modify the file **main.cpp** anyway you wish
 in order to test your member functions. You should take an incremental approach:
 
-1. Implement the **display()** method to help examining the content of the list
-2. Build a short list using **addFirst**, **addLast** methods that are provided (and therefore bug-free). Display the resulting list.
+1. Implement the **printAll()** method to help examining the content of the list
+2. Build a short list using **addFirst** method provided (and therefore bug-free). Display the resulting list.
 3. Implement the required member functions one at time, test and debug it on the list you built, before moving on to work on the next function.
    
 ## Submission

@@ -32,7 +32,7 @@ linked list manipulation will be discussed in class.
 
 ## Hints
 
-You can modify the file **main.cpp** anyway you wish
+You can modify the file **SLListUser.cpp** anyway you wish
 in order to test your member functions. You should take an incremental approach:
 
 1. Implement the **printAll()** method to help examining the content of the list
